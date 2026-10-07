@@ -122,7 +122,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00D5644E3D116055EEE871BF /* ChangeWindowTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ChangeWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D5644E3D116055EEE871BF /* ChangeWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D355BD43C4DAD7235ABC4B5 /* ChangeConsoleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeConsoleViewModel.swift; sourceTree = "<group>"; };
 		17C84C27B9F5BDE184A203C6 /* ScheduleChangeUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeUseCaseTests.swift; sourceTree = "<group>"; };
 		261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollbackReminderPayload.swift; sourceTree = "<group>"; };
@@ -143,10 +143,10 @@
 		70BFCDBBF18C19060F00A767 /* SharedEvidenceImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedEvidenceImporter.swift; sourceTree = "<group>"; };
 		78554392F928824373FB86F7 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 		787C6800453B86AD902BC318 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
-		856B03AC4FE1E3179168EBC3 /* ChangeWindow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ChangeWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B03AC4FE1E3179168EBC3 /* ChangeWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862C0726A980275A6D1288F3 /* ScheduleChangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeViewModel.swift; sourceTree = "<group>"; };
 		94BB2F80E98FEA99ECCFC060 /* ChangeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRequest.swift; sourceTree = "<group>"; };
-		9635745D4B3F509DA2FC5634 /* ChangeWindowNotificationContent.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ChangeWindowNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9635745D4B3F509DA2FC5634 /* ChangeWindowNotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChangeWindowNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F3D16660286E5A44131C14 /* ActiveChangeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChangeWidget.swift; sourceTree = "<group>"; };
 		9B8F2436ED1FC79AE6B3D772 /* GoNoGoDecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoDecisionView.swift; sourceTree = "<group>"; };
 		A2B88DF60EAC522BDA43C993 /* RunbookStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunbookStep.swift; sourceTree = "<group>"; };
@@ -156,9 +156,9 @@
 		B1F1C15E0678F210272B95B9 /* TestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDoubles.swift; sourceTree = "<group>"; };
 		B33D1CA8B385F54DF89C4697 /* EvidenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenceItem.swift; sourceTree = "<group>"; };
 		B391C10CCEE8F156C82585E4 /* ScheduleChangeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeUseCase.swift; sourceTree = "<group>"; };
-		B45F94C0E78FE1C5B87B3209 /* ChangeWindowWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ChangeWindowWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45F94C0E78FE1C5B87B3209 /* ChangeWindowWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChangeWindowWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AB56B6BB76746F297512D /* ChangeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStatus.swift; sourceTree = "<group>"; };
-		C266A124125B801A3C852F8F /* ChangeWindowShare.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ChangeWindowShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C266A124125B801A3C852F8F /* ChangeWindowShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChangeWindowShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EDED9CBDF9505C3B5ADF39 /* ScheduleChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeView.swift; sourceTree = "<group>"; };
 		CE3C2B1815358AE96CBA77D6 /* PlatformSyncingChangeRequestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSyncingChangeRequestRepository.swift; sourceTree = "<group>"; };
 		D4F35EC4A3EA18DD305D99FD /* DomainAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAlert.swift; sourceTree = "<group>"; };
@@ -472,23 +472,18 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					3D36934E404B64149E910708 = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					47177D09756354083098314E = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					48CA487859C9D1CABFF48063 = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					8326B2A3DC426EBE685FA2DA = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					E5BDD85B3BE22648E86AA61B = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -645,6 +640,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/Widget-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -725,6 +721,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Config/NotificationContent.entitlements;
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/NotificationContent-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -743,6 +740,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Config/NotificationContent.entitlements;
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/NotificationContent-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -761,6 +759,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Config/Share.entitlements;
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/Share-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -779,6 +778,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Config/Share.entitlements;
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/Share-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -796,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -815,6 +816,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/App-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -833,6 +835,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/App-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -849,6 +852,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -867,6 +871,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				DEVELOPMENT_TEAM = K3624W7S6J;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Config/Widget-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
