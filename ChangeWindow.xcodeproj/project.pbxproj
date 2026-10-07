@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DAEC2438E400AE2F9A5971 /* ScheduleChangeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391C10CCEE8F156C82585E4 /* ScheduleChangeUseCase.swift */; };
+		0D67A471AB5D8F5BF5F2F424 /* CloseChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C512A1B89F392142FA88D0 /* CloseChangeView.swift */; };
+		189FDC0C19AC422B1E05ABB4 /* ManagedRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7EFF4EE71EA734C818F35D /* ManagedRecords.swift */; };
+		191A2695F82F1C38B69047CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA861776850503A9BA23D2E0 /* AppDelegate.swift */; };
+		1B07A9120186029A847884FA /* ChangeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AB56B6BB76746F297512D /* ChangeStatus.swift */; };
+		1B49EF6F81FE2FB45B35E671 /* TestDoubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F1C15E0678F210272B95B9 /* TestDoubles.swift */; };
+		22E170ADEA501264CF594042 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBAB80676E84657401A550 /* NotificationViewController.swift */; };
+		26E4803067D276E03E9A1838 /* SharedEvidenceInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2F898DBD4E0464FDF597F /* SharedEvidenceInbox.swift */; };
+		2797D11982DDF0E31E70D645 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78554392F928824373FB86F7 /* AppGroup.swift */; };
+		29A8E8A12C3CD35F390BFC6B /* CloseOutUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE1108A02DB4D457868A9 /* CloseOutUseCaseTests.swift */; };
+		2B4D5FCAFF246B120EE1DCEC /* DemoChangeSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE6DD4165355FD1442B156 /* DemoChangeSeeder.swift */; };
+		2E88B4744831C4E83F1DFF19 /* ImplementationUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA949AEA023636E2883F912 /* ImplementationUseCaseTests.swift */; };
+		2FB4D486D9E111893D2C6FE8 /* RollbackReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8EDCBC1CED5F29F521ED /* RollbackReminderScheduler.swift */; };
+		34D7A0A5570F2F0FFEB2716E /* ScheduleChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EDED9CBDF9505C3B5ADF39 /* ScheduleChangeView.swift */; };
+		34F7E3CC01A7EEE6E7648983 /* DomainClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F55FECACEABB5949B896 /* DomainClock.swift */; };
+		35F2A8979C3F1A7F7130B497 /* RecordGoNoGoDecisionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A456018CCBF5AF4E0FAF0 /* RecordGoNoGoDecisionUseCase.swift */; };
+		38EEBB6E7C277D1DF17B9EBF /* ActiveChangeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F3D16660286E5A44131C14 /* ActiveChangeWidget.swift */; };
+		3B6478F94A0F88545EAAF7C9 /* MaintenanceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9DC7330B838858450BD91F /* MaintenanceWindow.swift */; };
+		3BAF531158092AB2C674CE4F /* SharedEvidenceInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2F898DBD4E0464FDF597F /* SharedEvidenceInbox.swift */; };
+		48753603A6B3FC0B53936172 /* CoreDataChangeRequestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7172B981891649881B9F85 /* CoreDataChangeRequestRepository.swift */; };
+		4B094A89A99FEC7EFD41F09D /* AttachEvidenceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757BB57CB4F589139F98DC9 /* AttachEvidenceUseCase.swift */; };
+		513BFB5B981612A3BA83CEEE /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3413499342524B18EBA9F5B /* PersistenceController.swift */; };
+		517EF04B9E765F11C0434647 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78554392F928824373FB86F7 /* AppGroup.swift */; };
+		55B2AAFD0EDB5B7CB4395306 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536AF4CFFD613DD5229D0E7 /* WidgetSnapshot.swift */; };
+		5F8672318B0B4AEF58547212 /* ChangeScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E6B99498B5B18BE6B1BD5 /* ChangeScheduleView.swift */; };
+		6157590C38FD4FE8E2458C81 /* CloseChangeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0969820A7CB7CF3A49045 /* CloseChangeUseCase.swift */; };
+		61EA4C2E6609DB5AAF164C0D /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78554392F928824373FB86F7 /* AppGroup.swift */; };
+		627B2020126FB820D6068F65 /* ChangeRequestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11F44C8D54F0A81F04A246 /* ChangeRequestRepository.swift */; };
+		629C2FEC71D668EC5CA1A0A6 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C6800453B86AD902BC318 /* AppEnvironment.swift */; };
+		63411C073D36B90D188D4E4D /* ChangeScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66294947B821016D4B55710D /* ChangeScheduleViewModel.swift */; };
+		63A336B9C4D3EE465F83DD24 /* EvidenceLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E04BA42ED02933759B916 /* EvidenceLogView.swift */; };
+		67C23A4381A7DAF1C82C8606 /* StepExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6780438C5AD6698D29CBEAF /* StepExecutionView.swift */; };
+		6A5972264928F0C29E5BD759 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78554392F928824373FB86F7 /* AppGroup.swift */; };
+		6F20953A4D571D9CAF5016ED /* ChangeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB2F80E98FEA99ECCFC060 /* ChangeRequest.swift */; };
+		79DA46C5D5CFE9EA6A9A839A /* BeginChangeWindowUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E9C175C2F3648454F7B84 /* BeginChangeWindowUseCase.swift */; };
+		7CC35852FFF742658C516504 /* RollbackReminderPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */; };
+		7E4BC17559E16019940E754F /* SharedEvidenceInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2F898DBD4E0464FDF597F /* SharedEvidenceInbox.swift */; };
+		862924E6058F8F3C09CED47D /* ChangeWindowShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C266A124125B801A3C852F8F /* ChangeWindowShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86B64E20F6F281159EF279F9 /* ChangeWindowWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B45F94C0E78FE1C5B87B3209 /* ChangeWindowWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89D462499C6A93CAF5893E63 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284AF68BAC6DAF9BC41AAB1 /* AppRouter.swift */; };
+		905FDF35EF22E964359BB186 /* ChangeWindowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F688E82920EE9E6DEB795F95 /* ChangeWindowApp.swift */; };
+		925803FB313F6AF569A15F9B /* DomainAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F35EC4A3EA18DD305D99FD /* DomainAlert.swift */; };
+		9AB15ED98885F360CAD8FC10 /* CompleteRunbookStepUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E538D1C942A843219BF3C35B /* CompleteRunbookStepUseCase.swift */; };
+		9ECD77A98B21178355526AA3 /* SharedEvidenceInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2F898DBD4E0464FDF597F /* SharedEvidenceInbox.swift */; };
+		A3C31561522D1697C9E9A9B0 /* RollbackReminderPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */; };
+		A5BE6ECE97959F19DD701CBF /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536AF4CFFD613DD5229D0E7 /* WidgetSnapshot.swift */; };
+		A8FF76FA8CB808667E1D9F72 /* ChangeWindowDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CB8E797581DE711D9244D7 /* ChangeWindowDataModel.swift */; };
+		AFC9BCC1123C2AA19BAECFC4 /* RollbackReminderPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */; };
+		B511684AA2B9FACF5F88F090 /* GoNoGoDecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F2436ED1FC79AE6B3D772 /* GoNoGoDecisionView.swift */; };
+		B5D6CEE4255775F11583E040 /* RollbackReminderPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */; };
+		BDCC09A808B01CF5234B65F3 /* PlatformSyncingChangeRequestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C2B1815358AE96CBA77D6 /* PlatformSyncingChangeRequestRepository.swift */; };
+		BE31817501E01349EF93A5E1 /* ChangeConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5EAB9E1648C0293F691BE8 /* ChangeConsoleView.swift */; };
+		C10552EF9CEC7D340CD3EFD5 /* ScheduleChangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862C0726A980275A6D1288F3 /* ScheduleChangeViewModel.swift */; };
+		C3672C67910516F8DAB66C47 /* EvidenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D1CA8B385F54DF89C4697 /* EvidenceItem.swift */; };
+		CBBBD800F03402356B1460F8 /* ScheduleChangeUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C84C27B9F5BDE184A203C6 /* ScheduleChangeUseCaseTests.swift */; };
+		D03A5DD99AFE585856638B5D /* ChangeConsoleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D355BD43C4DAD7235ABC4B5 /* ChangeConsoleViewModel.swift */; };
+		D416FC15287DF87FEB240353 /* EvidenceLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47FCAB0CCF3C7701346587 /* EvidenceLogViewModel.swift */; };
+		D9D8A25740CD5AC60AB05D06 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70297B85221F00087F761E9A /* ShareViewController.swift */; };
+		DE0EB765052145393AFCE090 /* RunbookStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B88DF60EAC522BDA43C993 /* RunbookStep.swift */; };
+		DE10B258260E3B1C0B0DDA57 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536AF4CFFD613DD5229D0E7 /* WidgetSnapshot.swift */; };
+		DE2371E4CA74466FB6693EC0 /* SharedEvidenceImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BFCDBBF18C19060F00A767 /* SharedEvidenceImporter.swift */; };
+		F56A8B114DB312ACEE05A760 /* WidgetSnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D0897CB0D7D5FA5724216 /* WidgetSnapshotPublisher.swift */; };
+		FB7DD136B1802C6B41537DBC /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027EA71ADB7C79EB06EDB98 /* Components.swift */; };
+		FB826B6E7B099739D098D752 /* ChangeWindowNotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9635745D4B3F509DA2FC5634 /* ChangeWindowNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD199CD57120833305792011 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536AF4CFFD613DD5229D0E7 /* WidgetSnapshot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062EAF6263EF86B1FB1F45B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5697B52E5241A3CE32ED185B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BDD85B3BE22648E86AA61B;
+			remoteInfo = ChangeWindowNotificationContent;
+		};
+		9A80B69EA8BBE43708647536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5697B52E5241A3CE32ED185B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47177D09756354083098314E;
+			remoteInfo = ChangeWindowWidget;
+		};
+		9D5003C8DFC4BEB20B72FDCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5697B52E5241A3CE32ED185B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48CA487859C9D1CABFF48063;
+			remoteInfo = ChangeWindow;
+		};
+		F7020DE232D0EAFA511E9396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5697B52E5241A3CE32ED185B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8326B2A3DC426EBE685FA2DA;
+			remoteInfo = ChangeWindowShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF982B67BAA996A199C437DA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86B64E20F6F281159EF279F9 /* ChangeWindowWidget.appex in Embed Foundation Extensions */,
+				862924E6058F8F3C09CED47D /* ChangeWindowShare.appex in Embed Foundation Extensions */,
+				FB826B6E7B099739D098D752 /* ChangeWindowNotificationContent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00D5644E3D116055EEE871BF /* ChangeWindowTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ChangeWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D355BD43C4DAD7235ABC4B5 /* ChangeConsoleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeConsoleViewModel.swift; sourceTree = "<group>"; };
+		17C84C27B9F5BDE184A203C6 /* ScheduleChangeUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeUseCaseTests.swift; sourceTree = "<group>"; };
+		261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollbackReminderPayload.swift; sourceTree = "<group>"; };
+		2AF2F898DBD4E0464FDF597F /* SharedEvidenceInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedEvidenceInbox.swift; sourceTree = "<group>"; };
+		399E04BA42ED02933759B916 /* EvidenceLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenceLogView.swift; sourceTree = "<group>"; };
+		3B9DC7330B838858450BD91F /* MaintenanceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceWindow.swift; sourceTree = "<group>"; };
+		40C512A1B89F392142FA88D0 /* CloseChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseChangeView.swift; sourceTree = "<group>"; };
+		4C47FCAB0CCF3C7701346587 /* EvidenceLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenceLogViewModel.swift; sourceTree = "<group>"; };
+		5284AF68BAC6DAF9BC41AAB1 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		5536AF4CFFD613DD5229D0E7 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		5A11F44C8D54F0A81F04A246 /* ChangeRequestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRequestRepository.swift; sourceTree = "<group>"; };
+		66294947B821016D4B55710D /* ChangeScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeScheduleViewModel.swift; sourceTree = "<group>"; };
+		6757BB57CB4F589139F98DC9 /* AttachEvidenceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachEvidenceUseCase.swift; sourceTree = "<group>"; };
+		690D0897CB0D7D5FA5724216 /* WidgetSnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotPublisher.swift; sourceTree = "<group>"; };
+		6CEE6DD4165355FD1442B156 /* DemoChangeSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoChangeSeeder.swift; sourceTree = "<group>"; };
+		6CFBAB80676E84657401A550 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		70297B85221F00087F761E9A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		70BFCDBBF18C19060F00A767 /* SharedEvidenceImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedEvidenceImporter.swift; sourceTree = "<group>"; };
+		78554392F928824373FB86F7 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		787C6800453B86AD902BC318 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		856B03AC4FE1E3179168EBC3 /* ChangeWindow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ChangeWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		862C0726A980275A6D1288F3 /* ScheduleChangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeViewModel.swift; sourceTree = "<group>"; };
+		94BB2F80E98FEA99ECCFC060 /* ChangeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRequest.swift; sourceTree = "<group>"; };
+		9635745D4B3F509DA2FC5634 /* ChangeWindowNotificationContent.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ChangeWindowNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F3D16660286E5A44131C14 /* ActiveChangeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChangeWidget.swift; sourceTree = "<group>"; };
+		9B8F2436ED1FC79AE6B3D772 /* GoNoGoDecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoDecisionView.swift; sourceTree = "<group>"; };
+		A2B88DF60EAC522BDA43C993 /* RunbookStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunbookStep.swift; sourceTree = "<group>"; };
+		A911F55FECACEABB5949B896 /* DomainClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainClock.swift; sourceTree = "<group>"; };
+		AD9A456018CCBF5AF4E0FAF0 /* RecordGoNoGoDecisionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordGoNoGoDecisionUseCase.swift; sourceTree = "<group>"; };
+		B1D0969820A7CB7CF3A49045 /* CloseChangeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseChangeUseCase.swift; sourceTree = "<group>"; };
+		B1F1C15E0678F210272B95B9 /* TestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDoubles.swift; sourceTree = "<group>"; };
+		B33D1CA8B385F54DF89C4697 /* EvidenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenceItem.swift; sourceTree = "<group>"; };
+		B391C10CCEE8F156C82585E4 /* ScheduleChangeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeUseCase.swift; sourceTree = "<group>"; };
+		B45F94C0E78FE1C5B87B3209 /* ChangeWindowWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ChangeWindowWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2AB56B6BB76746F297512D /* ChangeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStatus.swift; sourceTree = "<group>"; };
+		C266A124125B801A3C852F8F /* ChangeWindowShare.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ChangeWindowShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EDED9CBDF9505C3B5ADF39 /* ScheduleChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleChangeView.swift; sourceTree = "<group>"; };
+		CE3C2B1815358AE96CBA77D6 /* PlatformSyncingChangeRequestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSyncingChangeRequestRepository.swift; sourceTree = "<group>"; };
+		D4F35EC4A3EA18DD305D99FD /* DomainAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAlert.swift; sourceTree = "<group>"; };
+		DB5EAB9E1648C0293F691BE8 /* ChangeConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeConsoleView.swift; sourceTree = "<group>"; };
+		E18E9C175C2F3648454F7B84 /* BeginChangeWindowUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginChangeWindowUseCase.swift; sourceTree = "<group>"; };
+		E2CB8E797581DE711D9244D7 /* ChangeWindowDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWindowDataModel.swift; sourceTree = "<group>"; };
+		E538D1C942A843219BF3C35B /* CompleteRunbookStepUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRunbookStepUseCase.swift; sourceTree = "<group>"; };
+		E6780438C5AD6698D29CBEAF /* StepExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepExecutionView.swift; sourceTree = "<group>"; };
+		EA861776850503A9BA23D2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC7172B981891649881B9F85 /* CoreDataChangeRequestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataChangeRequestRepository.swift; sourceTree = "<group>"; };
+		ECA949AEA023636E2883F912 /* ImplementationUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationUseCaseTests.swift; sourceTree = "<group>"; };
+		EE2DE1108A02DB4D457868A9 /* CloseOutUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseOutUseCaseTests.swift; sourceTree = "<group>"; };
+		EE7EFF4EE71EA734C818F35D /* ManagedRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedRecords.swift; sourceTree = "<group>"; };
+		F027EA71ADB7C79EB06EDB98 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F3413499342524B18EBA9F5B /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F54E6B99498B5B18BE6B1BD5 /* ChangeScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeScheduleView.swift; sourceTree = "<group>"; };
+		F688E82920EE9E6DEB795F95 /* ChangeWindowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWindowApp.swift; sourceTree = "<group>"; };
+		FA6A8EDCBC1CED5F29F521ED /* RollbackReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollbackReminderScheduler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00464E79BCBD288059B77E3D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EA861776850503A9BA23D2E0 /* AppDelegate.swift */,
+				787C6800453B86AD902BC318 /* AppEnvironment.swift */,
+				5284AF68BAC6DAF9BC41AAB1 /* AppRouter.swift */,
+				F688E82920EE9E6DEB795F95 /* ChangeWindowApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0FC188739326D6D4C6C16AB5 /* ChangeWindow */ = {
+			isa = PBXGroup;
+			children = (
+				00464E79BCBD288059B77E3D /* App */,
+				4C78681D189934C6C880FFCF /* Domain */,
+				1585E7B5D48EB5F69AF8E4DA /* Persistence */,
+				DEB08547C40AC112D810C7A7 /* Platform */,
+				846926993B85B11EC88E0236 /* Repositories */,
+				67E878841667099865E1E1C9 /* Support */,
+				E881F992A946D5121E9D291F /* UseCases */,
+				EA6A9E4E0D7E7CA561DA4578 /* ViewModels */,
+				43CE8F34441C2CAA6B9A672E /* Views */,
+			);
+			path = ChangeWindow;
+			sourceTree = "<group>";
+		};
+		1585E7B5D48EB5F69AF8E4DA /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				E2CB8E797581DE711D9244D7 /* ChangeWindowDataModel.swift */,
+				EE7EFF4EE71EA734C818F35D /* ManagedRecords.swift */,
+				F3413499342524B18EBA9F5B /* PersistenceController.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		272BF620C5033F93861D144D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856B03AC4FE1E3179168EBC3 /* ChangeWindow.app */,
+				9635745D4B3F509DA2FC5634 /* ChangeWindowNotificationContent.appex */,
+				C266A124125B801A3C852F8F /* ChangeWindowShare.appex */,
+				00D5644E3D116055EEE871BF /* ChangeWindowTests.xctest */,
+				B45F94C0E78FE1C5B87B3209 /* ChangeWindowWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43CE8F34441C2CAA6B9A672E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB5EAB9E1648C0293F691BE8 /* ChangeConsoleView.swift */,
+				F54E6B99498B5B18BE6B1BD5 /* ChangeScheduleView.swift */,
+				40C512A1B89F392142FA88D0 /* CloseChangeView.swift */,
+				F027EA71ADB7C79EB06EDB98 /* Components.swift */,
+				399E04BA42ED02933759B916 /* EvidenceLogView.swift */,
+				9B8F2436ED1FC79AE6B3D772 /* GoNoGoDecisionView.swift */,
+				C3EDED9CBDF9505C3B5ADF39 /* ScheduleChangeView.swift */,
+				E6780438C5AD6698D29CBEAF /* StepExecutionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C78681D189934C6C880FFCF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				94BB2F80E98FEA99ECCFC060 /* ChangeRequest.swift */,
+				BD2AB56B6BB76746F297512D /* ChangeStatus.swift */,
+				A911F55FECACEABB5949B896 /* DomainClock.swift */,
+				B33D1CA8B385F54DF89C4697 /* EvidenceItem.swift */,
+				3B9DC7330B838858450BD91F /* MaintenanceWindow.swift */,
+				A2B88DF60EAC522BDA43C993 /* RunbookStep.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		67E878841667099865E1E1C9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE6DD4165355FD1442B156 /* DemoChangeSeeder.swift */,
+				D4F35EC4A3EA18DD305D99FD /* DomainAlert.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		71E8DC3968067A5296C51439 /* ChangeWindowNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBAB80676E84657401A550 /* NotificationViewController.swift */,
+			);
+			path = ChangeWindowNotificationContent;
+			sourceTree = "<group>";
+		};
+		846926993B85B11EC88E0236 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5A11F44C8D54F0A81F04A246 /* ChangeRequestRepository.swift */,
+				EC7172B981891649881B9F85 /* CoreDataChangeRequestRepository.swift */,
+				CE3C2B1815358AE96CBA77D6 /* PlatformSyncingChangeRequestRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A78AEC31B45D89E77047500D /* ChangeWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE1108A02DB4D457868A9 /* CloseOutUseCaseTests.swift */,
+				ECA949AEA023636E2883F912 /* ImplementationUseCaseTests.swift */,
+				17C84C27B9F5BDE184A203C6 /* ScheduleChangeUseCaseTests.swift */,
+				B1F1C15E0678F210272B95B9 /* TestDoubles.swift */,
+			);
+			path = ChangeWindowTests;
+			sourceTree = "<group>";
+		};
+		AC2C315373D1B8CECC45E290 = {
+			isa = PBXGroup;
+			children = (
+				0FC188739326D6D4C6C16AB5 /* ChangeWindow */,
+				71E8DC3968067A5296C51439 /* ChangeWindowNotificationContent */,
+				B319F10A0D827CB7A21C34E5 /* ChangeWindowShare */,
+				A78AEC31B45D89E77047500D /* ChangeWindowTests */,
+				EE4DE99F28B6FFAA10CDEA72 /* ChangeWindowWidget */,
+				C463F7895453CA35008252DE /* Shared */,
+				272BF620C5033F93861D144D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B319F10A0D827CB7A21C34E5 /* ChangeWindowShare */ = {
+			isa = PBXGroup;
+			children = (
+				70297B85221F00087F761E9A /* ShareViewController.swift */,
+			);
+			path = ChangeWindowShare;
+			sourceTree = "<group>";
+		};
+		C463F7895453CA35008252DE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				78554392F928824373FB86F7 /* AppGroup.swift */,
+				261C77B26F4653997D01BEED /* RollbackReminderPayload.swift */,
+				2AF2F898DBD4E0464FDF597F /* SharedEvidenceInbox.swift */,
+				5536AF4CFFD613DD5229D0E7 /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DEB08547C40AC112D810C7A7 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A8EDCBC1CED5F29F521ED /* RollbackReminderScheduler.swift */,
+				70BFCDBBF18C19060F00A767 /* SharedEvidenceImporter.swift */,
+				690D0897CB0D7D5FA5724216 /* WidgetSnapshotPublisher.swift */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		E881F992A946D5121E9D291F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				6757BB57CB4F589139F98DC9 /* AttachEvidenceUseCase.swift */,
+				E18E9C175C2F3648454F7B84 /* BeginChangeWindowUseCase.swift */,
+				B1D0969820A7CB7CF3A49045 /* CloseChangeUseCase.swift */,
+				E538D1C942A843219BF3C35B /* CompleteRunbookStepUseCase.swift */,
+				AD9A456018CCBF5AF4E0FAF0 /* RecordGoNoGoDecisionUseCase.swift */,
+				B391C10CCEE8F156C82585E4 /* ScheduleChangeUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		EA6A9E4E0D7E7CA561DA4578 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0D355BD43C4DAD7235ABC4B5 /* ChangeConsoleViewModel.swift */,
+				66294947B821016D4B55710D /* ChangeScheduleViewModel.swift */,
+				4C47FCAB0CCF3C7701346587 /* EvidenceLogViewModel.swift */,
+				862C0726A980275A6D1288F3 /* ScheduleChangeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE4DE99F28B6FFAA10CDEA72 /* ChangeWindowWidget */ = {
+			isa = PBXGroup;
+			children = (
+				97F3D16660286E5A44131C14 /* ActiveChangeWidget.swift */,
+			);
+			path = ChangeWindowWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D36934E404B64149E910708 /* ChangeWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1B2BD4CDDE9974F62D6932 /* Build configuration list for PBXNativeTarget "ChangeWindowTests" */;
+			buildPhases = (
+				F25E2830EE69DE7011292D7A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D9384C2608AF9559F553CB /* PBXTargetDependency */,
+			);
+			name = ChangeWindowTests;
+			packageProductDependencies = (
+			);
+			productName = ChangeWindowTests;
+			productReference = 00D5644E3D116055EEE871BF /* ChangeWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47177D09756354083098314E /* ChangeWindowWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0050F5F85E9E0DF30FAFB33A /* Build configuration list for PBXNativeTarget "ChangeWindowWidget" */;
+			buildPhases = (
+				F6413B2704A2D32281FF007A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeWindowWidget;
+			packageProductDependencies = (
+			);
+			productName = ChangeWindowWidget;
+			productReference = B45F94C0E78FE1C5B87B3209 /* ChangeWindowWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		48CA487859C9D1CABFF48063 /* ChangeWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67DCCB34DDC76C3DED3D1FBF /* Build configuration list for PBXNativeTarget "ChangeWindow" */;
+			buildPhases = (
+				A1458B680F573FA415FD1295 /* Sources */,
+				DF982B67BAA996A199C437DA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7B0E6CC661DB35EC83FC1D /* PBXTargetDependency */,
+				2090E180CBE1F94BFC7CC012 /* PBXTargetDependency */,
+				47A75702E4C878B34E2AA14F /* PBXTargetDependency */,
+			);
+			name = ChangeWindow;
+			packageProductDependencies = (
+			);
+			productName = ChangeWindow;
+			productReference = 856B03AC4FE1E3179168EBC3 /* ChangeWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8326B2A3DC426EBE685FA2DA /* ChangeWindowShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B61F1672C9810C5068334C /* Build configuration list for PBXNativeTarget "ChangeWindowShare" */;
+			buildPhases = (
+				5C2796341C5DF2C29679E7AA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeWindowShare;
+			packageProductDependencies = (
+			);
+			productName = ChangeWindowShare;
+			productReference = C266A124125B801A3C852F8F /* ChangeWindowShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E5BDD85B3BE22648E86AA61B /* ChangeWindowNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AB8868CFA9FF19ED9ACCA3 /* Build configuration list for PBXNativeTarget "ChangeWindowNotificationContent" */;
+			buildPhases = (
+				C5642A4A791B0748ACD2148E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeWindowNotificationContent;
+			packageProductDependencies = (
+			);
+			productName = ChangeWindowNotificationContent;
+			productReference = 9635745D4B3F509DA2FC5634 /* ChangeWindowNotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5697B52E5241A3CE32ED185B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3D36934E404B64149E910708 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					47177D09756354083098314E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					48CA487859C9D1CABFF48063 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					8326B2A3DC426EBE685FA2DA = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					E5BDD85B3BE22648E86AA61B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9698A83C393246F7852400C4 /* Build configuration list for PBXProject "ChangeWindow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AC2C315373D1B8CECC45E290;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 272BF620C5033F93861D144D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48CA487859C9D1CABFF48063 /* ChangeWindow */,
+				47177D09756354083098314E /* ChangeWindowWidget */,
+				8326B2A3DC426EBE685FA2DA /* ChangeWindowShare */,
+				E5BDD85B3BE22648E86AA61B /* ChangeWindowNotificationContent */,
+				3D36934E404B64149E910708 /* ChangeWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2796341C5DF2C29679E7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517EF04B9E765F11C0434647 /* AppGroup.swift in Sources */,
+				7CC35852FFF742658C516504 /* RollbackReminderPayload.swift in Sources */,
+				D9D8A25740CD5AC60AB05D06 /* ShareViewController.swift in Sources */,
+				26E4803067D276E03E9A1838 /* SharedEvidenceInbox.swift in Sources */,
+				A5BE6ECE97959F19DD701CBF /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1458B680F573FA415FD1295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191A2695F82F1C38B69047CA /* AppDelegate.swift in Sources */,
+				629C2FEC71D668EC5CA1A0A6 /* AppEnvironment.swift in Sources */,
+				2797D11982DDF0E31E70D645 /* AppGroup.swift in Sources */,
+				89D462499C6A93CAF5893E63 /* AppRouter.swift in Sources */,
+				4B094A89A99FEC7EFD41F09D /* AttachEvidenceUseCase.swift in Sources */,
+				79DA46C5D5CFE9EA6A9A839A /* BeginChangeWindowUseCase.swift in Sources */,
+				BE31817501E01349EF93A5E1 /* ChangeConsoleView.swift in Sources */,
+				D03A5DD99AFE585856638B5D /* ChangeConsoleViewModel.swift in Sources */,
+				6F20953A4D571D9CAF5016ED /* ChangeRequest.swift in Sources */,
+				627B2020126FB820D6068F65 /* ChangeRequestRepository.swift in Sources */,
+				5F8672318B0B4AEF58547212 /* ChangeScheduleView.swift in Sources */,
+				63411C073D36B90D188D4E4D /* ChangeScheduleViewModel.swift in Sources */,
+				1B07A9120186029A847884FA /* ChangeStatus.swift in Sources */,
+				905FDF35EF22E964359BB186 /* ChangeWindowApp.swift in Sources */,
+				A8FF76FA8CB808667E1D9F72 /* ChangeWindowDataModel.swift in Sources */,
+				6157590C38FD4FE8E2458C81 /* CloseChangeUseCase.swift in Sources */,
+				0D67A471AB5D8F5BF5F2F424 /* CloseChangeView.swift in Sources */,
+				9AB15ED98885F360CAD8FC10 /* CompleteRunbookStepUseCase.swift in Sources */,
+				FB7DD136B1802C6B41537DBC /* Components.swift in Sources */,
+				48753603A6B3FC0B53936172 /* CoreDataChangeRequestRepository.swift in Sources */,
+				2B4D5FCAFF246B120EE1DCEC /* DemoChangeSeeder.swift in Sources */,
+				925803FB313F6AF569A15F9B /* DomainAlert.swift in Sources */,
+				34F7E3CC01A7EEE6E7648983 /* DomainClock.swift in Sources */,
+				C3672C67910516F8DAB66C47 /* EvidenceItem.swift in Sources */,
+				63A336B9C4D3EE465F83DD24 /* EvidenceLogView.swift in Sources */,
+				D416FC15287DF87FEB240353 /* EvidenceLogViewModel.swift in Sources */,
+				B511684AA2B9FACF5F88F090 /* GoNoGoDecisionView.swift in Sources */,
+				3B6478F94A0F88545EAAF7C9 /* MaintenanceWindow.swift in Sources */,
+				189FDC0C19AC422B1E05ABB4 /* ManagedRecords.swift in Sources */,
+				513BFB5B981612A3BA83CEEE /* PersistenceController.swift in Sources */,
+				BDCC09A808B01CF5234B65F3 /* PlatformSyncingChangeRequestRepository.swift in Sources */,
+				35F2A8979C3F1A7F7130B497 /* RecordGoNoGoDecisionUseCase.swift in Sources */,
+				A3C31561522D1697C9E9A9B0 /* RollbackReminderPayload.swift in Sources */,
+				2FB4D486D9E111893D2C6FE8 /* RollbackReminderScheduler.swift in Sources */,
+				DE0EB765052145393AFCE090 /* RunbookStep.swift in Sources */,
+				01DAEC2438E400AE2F9A5971 /* ScheduleChangeUseCase.swift in Sources */,
+				34D7A0A5570F2F0FFEB2716E /* ScheduleChangeView.swift in Sources */,
+				C10552EF9CEC7D340CD3EFD5 /* ScheduleChangeViewModel.swift in Sources */,
+				DE2371E4CA74466FB6693EC0 /* SharedEvidenceImporter.swift in Sources */,
+				9ECD77A98B21178355526AA3 /* SharedEvidenceInbox.swift in Sources */,
+				67C23A4381A7DAF1C82C8606 /* StepExecutionView.swift in Sources */,
+				55B2AAFD0EDB5B7CB4395306 /* WidgetSnapshot.swift in Sources */,
+				F56A8B114DB312ACEE05A760 /* WidgetSnapshotPublisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5642A4A791B0748ACD2148E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EA4C2E6609DB5AAF164C0D /* AppGroup.swift in Sources */,
+				22E170ADEA501264CF594042 /* NotificationViewController.swift in Sources */,
+				B5D6CEE4255775F11583E040 /* RollbackReminderPayload.swift in Sources */,
+				3BAF531158092AB2C674CE4F /* SharedEvidenceInbox.swift in Sources */,
+				FD199CD57120833305792011 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25E2830EE69DE7011292D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A8E8A12C3CD35F390BFC6B /* CloseOutUseCaseTests.swift in Sources */,
+				2E88B4744831C4E83F1DFF19 /* ImplementationUseCaseTests.swift in Sources */,
+				CBBBD800F03402356B1460F8 /* ScheduleChangeUseCaseTests.swift in Sources */,
+				1B49EF6F81FE2FB45B35E671 /* TestDoubles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6413B2704A2D32281FF007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EEBB6E7C277D1DF17B9EBF /* ActiveChangeWidget.swift in Sources */,
+				6A5972264928F0C29E5BD759 /* AppGroup.swift in Sources */,
+				AFC9BCC1123C2AA19BAECFC4 /* RollbackReminderPayload.swift in Sources */,
+				7E4BC17559E16019940E754F /* SharedEvidenceInbox.swift in Sources */,
+				DE10B258260E3B1C0B0DDA57 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2090E180CBE1F94BFC7CC012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8326B2A3DC426EBE685FA2DA /* ChangeWindowShare */;
+			targetProxy = F7020DE232D0EAFA511E9396 /* PBXContainerItemProxy */;
+		};
+		47A75702E4C878B34E2AA14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BDD85B3BE22648E86AA61B /* ChangeWindowNotificationContent */;
+			targetProxy = 062EAF6263EF86B1FB1F45B9 /* PBXContainerItemProxy */;
+		};
+		55D9384C2608AF9559F553CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48CA487859C9D1CABFF48063 /* ChangeWindow */;
+			targetProxy = 9D5003C8DFC4BEB20B72FDCF /* PBXContainerItemProxy */;
+		};
+		AE7B0E6CC661DB35EC83FC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47177D09756354083098314E /* ChangeWindowWidget */;
+			targetProxy = 9A80B69EA8BBE43708647536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D38C988CB4D25B25DD58F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D6C830D8D794A7790000CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		388F28A27E5D279CF595E247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/NotificationContent.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/NotificationContent-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.notificationcontent;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DCFA5F958F5E2F095F77894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/NotificationContent.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/NotificationContent-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.notificationcontent;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A0014BA2CD7E054B77C6C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Share.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Share-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.share;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B4C4187328245E55B5D3FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Share.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Share-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.share;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83852E4154BD1D07BE68E291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeWindow.app/ChangeWindow";
+			};
+			name = Debug;
+		};
+		8F50DE3E89C752BD0505C237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9223A63C6B29E52058A4BED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0400401D105D16E8A28E9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeWindow.app/ChangeWindow";
+			};
+			name = Release;
+		};
+		CEF87C473FD4575993438881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.changewindow.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E46DFB6451E5A54C986D26E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0050F5F85E9E0DF30FAFB33A /* Build configuration list for PBXNativeTarget "ChangeWindowWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF87C473FD4575993438881 /* Debug */,
+				1D38C988CB4D25B25DD58F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59AB8868CFA9FF19ED9ACCA3 /* Build configuration list for PBXNativeTarget "ChangeWindowNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F28A27E5D279CF595E247 /* Debug */,
+				4DCFA5F958F5E2F095F77894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F1B2BD4CDDE9974F62D6932 /* Build configuration list for PBXNativeTarget "ChangeWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83852E4154BD1D07BE68E291 /* Debug */,
+				A0400401D105D16E8A28E9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67DCCB34DDC76C3DED3D1FBF /* Build configuration list for PBXNativeTarget "ChangeWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9223A63C6B29E52058A4BED2 /* Debug */,
+				8F50DE3E89C752BD0505C237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9698A83C393246F7852400C4 /* Build configuration list for PBXProject "ChangeWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46DFB6451E5A54C986D26E1 /* Debug */,
+				2D6C830D8D794A7790000CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9B61F1672C9810C5068334C /* Build configuration list for PBXNativeTarget "ChangeWindowShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0014BA2CD7E054B77C6C7A /* Debug */,
+				7B4C4187328245E55B5D3FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5697B52E5241A3CE32ED185B /* Project object */;
+}

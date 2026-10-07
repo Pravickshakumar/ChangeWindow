@@ -1,0 +1,6 @@
+# Xcode user state and build output (commit ChangeWindow.xcodeproj itself)
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.DS_Store
